@@ -8,6 +8,7 @@
     --badge-bg: #2a151b;
     --font-serif: 'Playfair Display', serif;
     --font-sans: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 
 * {
