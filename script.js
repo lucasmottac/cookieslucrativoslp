@@ -16,10 +16,13 @@ function startTimer(duration, display) {
     }, 1000);
 }
 
-window.onload = function () {
+document.addEventListener('DOMContentLoaded', () => {
     var fiveMinutes = 60 * 5,
         display = document.querySelector('.timer');
-    startTimer(fiveMinutes, display);
+
+    if (display) {
+        startTimer(fiveMinutes, display);
+    }
 
     // FAQ Accordion
     const faqQuestions = document.querySelectorAll('.faq-question');
@@ -47,6 +50,4 @@ window.onload = function () {
             }
         });
     });
-
-    lucide.createIcons();
-};
+});
