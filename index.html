@@ -28,7 +28,7 @@
                 </span>
                 <div class="timer-pill">
                     <i data-lucide="clock" class="icon-clock"></i>
-                    <span class="timer">05:00</span>
+                    <span class="timer" id="countdown">05:00</span>
                 </div>
             </div>
 
@@ -1001,6 +1001,44 @@
     </footer>
     <script>
         lucide.createIcons();
+
+        // Fail-safe Timer Script
+        (function () {
+            var duration = 60 * 5; // 5 minutes in seconds
+            var display = document.getElementById('countdown');
+
+            if (!display) {
+                console.error("Timer element not found!");
+                return;
+            }
+
+            function startTimer() {
+                var timer = duration, minutes, seconds;
+
+                // Run immediately
+                update();
+
+                // Update every second
+                setInterval(update, 1000);
+
+                function update() {
+                    minutes = parseInt(timer / 60, 10);
+                    seconds = parseInt(timer % 60, 10);
+
+                    minutes = minutes < 10 ? "0" + minutes : minutes;
+                    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                    display.textContent = minutes + ":" + seconds;
+
+                    if (--timer < 0) {
+                        timer = 0;
+                    }
+                }
+            }
+
+            // Start immediately
+            startTimer();
+        })();
     </script>
 </body>
 

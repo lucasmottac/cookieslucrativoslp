@@ -17,28 +17,7 @@ function startTimer(duration, display) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    var fiveMinutes = 60 * 5,
-        display = document.querySelector('.timer');
-
-    const updateTimer = () => {
-        let minutes = Math.floor(fiveMinutes / 60);
-        let seconds = fiveMinutes % 60;
-
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-
-        display.textContent = minutes + ":" + seconds;
-
-        if (--fiveMinutes < 0) {
-            fiveMinutes = 0;
-            // Optional: Action when timer ends
-        }
-    };
-
-    if (display) {
-        updateTimer(); // Run immediately so there is no 1s delay
-        setInterval(updateTimer, 1000);
-    }
+    // Timer logic moved to inline script in index.html for reliability
 
     // FAQ Accordion
     const faqQuestions = document.querySelectorAll('.faq-question');
