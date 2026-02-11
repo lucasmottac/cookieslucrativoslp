@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces de Vitrine - Renda Extra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar-sticker">
+        <div class="top-bar-container">
+            <div class="timer-group">
+                <span class="timer-label">
+                    <i data-lucide="alert-triangle" class="icon-danger"></i> OFERTA EXPIRA EM:
+                </span>
+                <div class="timer-pill">
+                    <i data-lucide="clock" class="icon-clock"></i>
+                    <span class="timer">05:00</span>
+                </div>
+            </div>
+
+            <div class="slots-pill">
+                <i data-lucide="flame" class="icon-flame"></i>
+                <span>RESTAM APENAS <span class="highlight-pink">5 VAGAS</span>!</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+
+            <div class="badge-pill">
+                <i data-lucide="cookie" size="12" fill="currentColor"></i> Método exclusivo de Cookies Americanos
+            </div>
+
+            <h1 class="main-title">
+                Transforme sua cozinha em uma <span class="text-pink">Vitrine de renda alta</span>
+            </h1>
+
+            <p class="sub-headline">
+                Mesmo para quem é <span class="text-pink">totalmente iniciante</span> e nunca assou um cookie na vida.
+                Fature de <strong>R$ 200 a R$ 500 de lucro por dia</strong> com receitas de alta demanda.
+            </p>
+
+            <a href="#" class="cta-button">
+                QUERO FATURAR COM COOKIES <i data-lucide="arrow-right"></i>
+            </a>
+
+            <div class="social-proof">
+                <div class="stars">
+                    <i data-lucide="star" fill="currentColor" class="star-filled"></i>
+                    <i data-lucide="star" fill="currentColor" class="star-filled"></i>
+                    <i data-lucide="star" fill="currentColor" class="star-filled"></i>
+                    <i data-lucide="star" fill="currentColor" class="star-filled"></i>
+                    <i data-lucide="star" fill="currentColor" class="star-filled"></i>
+                </div>
+                <span class="rating-text">4.9/5</span>
+            </div>
+
+            <div class="trust-badges">
+                <span><i data-lucide="sparkles"></i> Acesso Imediato</span>
+                <span class="dot">•</span>
+                <span><i data-lucide="lock"></i> Pagamento seguro</span>
+                <span class="dot">•</span>
+                <span><i data-lucide="shield-check"></i> Garantia de 7 dias</span>
+            </div>
+
+            <div class="hero-image-container">
+                <div class="glow-effect"></div>
+                <!-- Placeholder image until we have the cookie asset, using existing one for layout -->
+                <img src="assets/hero-cookies.png" alt="Cookies Americanos" class="hero-image">
+                <div class="floating-badge">
+                    <i data-lucide="sparkles" class="badge-icon"></i>
+                    <span>O Doce Mais Vendido do Mundo</span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- App Section -->
+    <section class="app-section">
+        <div class="container">
+            <div class="badge-pill-outline">
+                <i data-lucide="smartphone"></i> CONHEÇA O APLICATIVO
+            </div>
+
+            <h2 class="section-title">
+                O Segredo do <span class="text-pink">Cookie Perfeito</span> <span class="text-pink">Agora no Seu
+                    Bolso</span>
+            </h2>
+
+            <p class="section-description">
+                Tenha acesso às receitas dos famosos cookies 'Levain' de Nova York, passo a passo
+                em vídeo e suporte direto. <span class="text-pink">Sua fábrica de cookies na palma da mão.</span>
+            </p>
+
+            <div class="phone-mockup-container">
+                <img src="assets/app-mockup-cookies.png" alt="App Preview" class="phone-mockup">
+                <div class="play-button-overlay">
+                    <div class="play-button">
+                        <i data-lucide="play" fill="currentColor"></i>
+                    </div>
+                </div>
+                <div class="video-caption">Toque para assistir</div>
+            </div>
+
+            <p class="download-text">Disponível para download em</p>
+
+            <div class="download-buttons">
+                <div class="store-button">
+                    <i data-lucide="gamepad-2"></i>
+                    <!-- Placeholder for Android. Ideally allow user to upload SVGs later -->
+                    <div class="store-info">
+                        <span class="small-text">Disponível no</span>
+                        <span class="store-name">Android</span>
+                    </div>
+                </div>
+                <div class="store-button">
+                    <i data-lucide="apple"></i>
+                    <div class="store-info">
+                        <span class="small-text">Disponível na</span>
+                        <span class="store-name">App Store</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Why It Works Section -->
+    <section class="why-works-section">
+        <div class="container">
+            <div class="badge-pill-outline">
+                <i data-lucide="sparkles"></i> O Mecanismo Secreto
+            </div>
+
+            <h2 class="section-title">
+                Por Que Funciona <span class="text-pink">Para Qualquer Pessoa</span>
+            </h2>
+
+
+            <p class="section-description">
+                Não é mágica. É um <span class="text-pink">método testado</span> que transforma ingredientes simples em
+                lucro real.
+            </p>
+
+            <div class="why-works-grid">
+                <!-- Left: Images -->
+                <div class="images-column">
+                    <div class="image-grid">
+                        <img src="assets/grid-cookie-1.png" alt="Red Velvet Cookie" class="grid-img img-1">
+                        <img src="assets/grid-cookie-2.png" alt="Pistache Cookie" class="grid-img img-2">
+                        <div class="floating-badge badge-margin">
+                            <i data-lucide="trending-up" class="badge-icon"></i>
+                            <span>Margem de 300%+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Content List -->
+                <div class="content-column">
+                    <ul class="benefits-list">
+                        <li class="benefit-item">
+                            <div class="check-icon"><i data-lucide="check-circle-2"></i></div>
+                            <span>Assa em 12 minutos (Ultra Rápido)</span>
+                        </li>
+                        <li class="benefit-item">
+                            <div class="check-icon"><i data-lucide="check-circle-2"></i></div>
+                            <span>Pode congelar a massa por 3 meses</span>
+                        </li>
+                        <li class="benefit-item">
+                            <div class="check-icon"><i data-lucide="check-circle-2"></i></div>
+                            <span>Baixo custo, Alta margem de lucro</span>
+                        </li>
+                        <li class="benefit-item">
+                            <div class="check-icon"><i data-lucide="check-circle-2"></i></div>
+                            <span>Vende fácil no Delivery e Instagram</span>
+                        </li>
+                        <li class="benefit-item">
+                            <div class="check-icon"><i data-lucide="check-circle-2"></i></div>
+                            <span>Não precisa de batedeira planetária</span>
+                        </li>
+                        <li class="benefit-item">
+                            <div class="check-icon"><i data-lucide="check-circle-2"></i></div>
+                            <span>Alta procura o ano inteiro</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+    </section>
+
+    <!-- Emotional Connection Section -->
+    <section class="emotional-section">
+        <div class="container">
+            <div class="badge-pill-outline">
+                <i data-lucide="heart"></i> PARA PESSOAS COMO VOCÊ
+            </div>
+
+            <h2 class="section-title">
+                Você Sente Que <span class="text-pink">Merece Mais</span>
+            </h2>
+
+            <p class="section-description">
+                Você sempre soube que tinha <span class="text-pink">potencial para brilhar</span>. Às vezes, só falta o
+                caminho certo para mostrar ao mundo o que você é capaz de criar.
+            </p>
+
+            <!-- Marquee Container -->
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    <!-- Duplicated items for infinite scroll effect (Original + Clone) -->
+                    <img src="assets/marquee-1.png" alt="Kinder Bueno" class="marquee-img">
+                    <img src="assets/marquee-2.png" alt="Ferrero Rocher" class="marquee-img">
+                    <img src="assets/hero-cookies.png" alt="Cookies Stack" class="marquee-img">
+                    <img src="assets/marquee-3.png" alt="Oreo Overload" class="marquee-img">
+                    <img src="assets/marquee-4.png" alt="Ninho Nutella" class="marquee-img">
+                    <img src="assets/marquee-5.png" alt="Dark Cookie" class="marquee-img">
+
+                    <!-- Clones -->
+                    <img src="assets/marquee-1.png" alt="Kinder Bueno" class="marquee-img">
+                    <img src="assets/marquee-2.png" alt="Ferrero Rocher" class="marquee-img">
+                    <img src="assets/hero-cookies.png" alt="Cookies Stack" class="marquee-img">
+                    <img src="assets/marquee-3.png" alt="Oreo Overload" class="marquee-img">
+                    <img src="assets/marquee-4.png" alt="Ninho Nutella" class="marquee-img">
+                    <img src="assets/marquee-5.png" alt="Dark Cookie" class="marquee-img">
+                </div>
+                <div class="marquee-overlay-left"></div>
+                <div class="marquee-overlay-right"></div>
+            </div>
+
+            <!-- Emotional List -->
+            <div class="emotional-list">
+                <div class="emotion-pill">
+                    <i data-lucide="sparkles"></i> <strong>Você já imaginou...</strong> Clientes pedindo antes mesmo de
+                    postar
+                </div>
+                <div class="emotion-pill">
+                    <i data-lucide="heart"></i> <strong>Aquela sensação...</strong> De ver seu trabalho sendo
+                    reconhecido
+                </div>
+                <div class="emotion-pill">
+                    <i data-lucide="star"></i> <strong>Finalmente...</strong> Ter orgulho do que você cria
+                </div>
+            </div>
+
+
+            <div class="quote-block">
+                "Pessoas como você, que buscam qualidade e dedicação, <span class="text-pink">sempre conseguem
+                    resultados extraordinários</span> quando encontram o método certo."
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section class="curriculum-section">
+        <div class="container">
+            <div class="badge-pill-outline">
+                <i data-lucide="book-open"></i> Conteúdo Completo
+            </div>
+
+            <h2 class="section-title">
+                O que você vai <span class="text-pink">aprender</span>
+            </h2>
+
+            <p class="section-description">
+                6 módulos práticos com mais de 30 aulas em vídeo para você dominar a arte dos Cookies Americanos (NY
+                Style) de alta conversão.
+            </p>
+
+            <div class="modules-grid">
+                <!-- Module 01 -->
+                <div class="module-card">
+                    <div class="card-header">
+                        <div class="play-icon-box">
+                            <i data-lucide="play" fill="white"></i>
+                        </div>
+                        <span class="watermark-number">01</span>
+                    </div>
+                    <h3>A Ciência do Cookie Perfeito</h3>
+                    <p>Entenda a química por trás da massa: como deixar crocante por fora e macio por dentro (fudgy).
+                    </p>
+                    <div class="card-meta">
+                        <span><i data-lucide="book"></i> 8 aulas</span>
+                        <span><i data-lucide="clock"></i> 2h 30min</span>
+                    </div>
+                </div>
+
+                <!-- Module 02 -->
+                <div class="module-card">
+                    <div class="card-header">
+                        <div class="play-icon-box">
+                            <i data-lucide="play" fill="white"></i>
+                        </div>
+                        <span class="watermark-number">02</span>
+                    </div>
+                    <h3>Cookies Clássicos & Gota de Chocolate</h3>
+                    <p>O carro-chefe das vendas. Aprenda o Clássico com gotas de chocolate belga que vende todo dia.</p>
+                    <div class="card-meta">
+                        <span><i data-lucide="book"></i> 12 aulas</span>
+                        <span><i data-lucide="clock"></i> 3h 45min</span>
+                    </div>
+                </div>
+
+                <!-- Module 03 -->
+                <div class="module-card">
+                    <div class="card-header">
+                        <div class="play-icon-box">
+                            <i data-lucide="play" fill="white"></i>
+                        </div>
+                        <span class="watermark-number">03</span>
+                    </div>
+                    <h3>Cookies Recheados (Stuffed)</h3>
+                    <p>Aprenda a técnica correta para rechear com Nutella, Doce de Leite e Brigadeiro sem vazar no
+                        forno.</p>
+                    <div class="card-meta">
+                        <span><i data-lucide="book"></i> 10 aulas</span>
+                        <span><i data-lucide="clock"></i> 3h 15min</span>
+                    </div>
+                </div>
+
+                <!-- Module 04 -->
+                <div class="module-card">
+                    <div class="card-header">
+                        <div class="play-icon-box">
+                            <i data-lucide="play" fill="white"></i>
+                        </div>
+                        <span class="watermark-number">04</span>
+                    </div>
+                    <h3>Red Velvet & Especiais</h3>
+                    <p>Receitas luxuosas como Red Velvet com Cream Cheese, Pistache e Dark Chocolate com Flor de Sal.
+                    </p>
+                    <div class="card-meta">
+                        <span><i data-lucide="book"></i> 8 aulas</span>
+                        <span><i data-lucide="clock"></i> 2h 00min</span>
+                    </div>
+                </div>
+
+                <!-- Module 05 -->
+                <div class="module-card">
+                    <div class="card-header">
+                        <div class="play-icon-box">
+                            <i data-lucide="play" fill="white"></i>
+                        </div>
+                        <span class="watermark-number">05</span>
+                    </div>
+                    <h3>Precificação Lucrativa</h3>
+                    <p>A matemática do lucro: como calcular seus custos e definir preços que geram margem de 300% ou
+                        mais.</p>
+                    <div class="card-meta">
+                        <span><i data-lucide="book"></i> 5 aulas</span>
+                        <span><i data-lucide="clock"></i> 1h 30min</span>
+                    </div>
+                </div>
+
+                <!-- Module 06 -->
+                <div class="module-card">
+                    <div class="card-header">
+                        <div class="play-icon-box">
+                            <i data-lucide="play" fill="white"></i>
+                        </div>
+                        <span class="watermark-number">06</span>
+                    </div>
+                    <h3>Vitrine que Vende</h3>
+                    <p>Apresentação, embalagem e fotos que fazem seus doces parecerem irresistíveis nas redes sociais.
+                    </p>
+                    <div class="card-meta">
+                        <span><i data-lucide="book"></i> 6 aulas</span>
+                        <span><i data-lucide="clock"></i> 1h 45min</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Stats -->
+            <div class="curriculum-stats">
+                <div class="stat-item">
+                    <i data-lucide="award" class="stat-icon-large"></i>
+                    <div class="stat-text">
+                        <strong>49+</strong>
+                        <span>Aulas em vídeo</span>
+                    </div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <i data-lucide="clock" class="stat-icon-large"></i>
+                    <div class="stat-text">
+                        <strong>15h+</strong>
+                        <span>De conteúdo</span>
+                    </div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <i data-lucide="book-open" class="stat-icon-large"></i>
+                    <div class="stat-text">
+                        <strong>Vitalício</strong>
+                        <span>Acesso ao curso</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Bonus Section -->
+    <section class="bonus-section">
+        <div class="container">
+            <div class="badge-pill-outline">
+                <i data-lucide="gift"></i> Bônus Exclusivos
+            </div>
+
+            <h2 class="section-title">
+                Bônus Irresistíveis <span class="text-pink">que Turbinam Seu Lucro</span>
+            </h2>
+
+            <p class="section-description">
+                Além do curso completo, você ganha acesso exclusivo ao <strong>Aplicativo Oficial</strong> com
+                ferramentas que valem mais que o próprio curso.
+                <span class="text-pink">Tudo isso grátis para alunos!</span>
+            </p>
+
+            <div class="bonus-grid">
+                <!-- Bonus 1: Calculator -->
+                <div class="bonus-card">
+                    <div class="bonus-icon-box">
+                        <i data-lucide="calculator"></i>
+                    </div>
+                    <h3><span class="bonus-label">Bônus #1:</span> Calculadora de Lucro Automática</h3>
+                    <p>Você nunca mais vai ter prejuízo. Coloque o preço dos ingredientes e o App calcula o custo exato,
+                        preço de venda e seu lucro na hora.</p>
+                    <div class="price-tag">
+                        <span class="old-price">R$ 97</span> <span class="free-badge">APP EXCLUSIVO</span>
+                    </div>
+                </div>
+
+                <!-- Bonus 2: Sales Kit -->
+                <div class="bonus-card">
+                    <div class="bonus-icon-box">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+                    <h3><span class="bonus-label">Bônus #2:</span> Kit de Vendas Pro (Scripts)</h3>
+                    <p>Copie e cole! Textos prontos para: "Instagram Magnético" (legendas que vendem), mensagens de
+                        WhatsApp para fechar pedidos e Quebra de Objeções.</p>
+                    <div class="price-tag">
+                        <span class="old-price">R$ 147</span> <span class="free-badge">NO APP</span>
+                    </div>
+                </div>
+
+                <!-- Bonus 3: Golden Tips -->
+                <div class="bonus-card">
+                    <div class="bonus-icon-box">
+                        <i data-lucide="lightbulb"></i>
+                    </div>
+                    <h3><span class="bonus-label">Bônus #3:</span> Dicas de Ouro (Segredos de Chef)</h3>
+                    <p>A área secreta do app com técnicas avançadas: maturação da massa (ficando saborosa), congelamento
+                        (flash freeze) e ponto perfeito do forno.</p>
+                    <div class="price-tag">
+                        <span class="old-price">R$ 127</span> <span class="free-badge">NO APP</span>
+                    </div>
+                </div>
+
+                <!-- Bonus 4: Primeira Venda -->
+                <div class="bonus-card">
+                    <div class="bonus-icon-box">
+                        <i data-lucide="rocket"></i>
+                    </div>
+                    <h3><span class="bonus-label">Bônus #4:</span> Guia da Primeira Venda 24h</h3>
+                    <p>Um mapa passo a passo para você fazer sua primeira venda em menos de 24 horas, mesmo sem ter
+                        seguidores no Instagram.</p>
+                    <div class="price-tag">
+                        <span class="old-price">R$ 67</span> <span class="free-badge">NO APP</span>
+                    </div>
+                </div>
+
+                <!-- Bonus 5: Extra Recipes -->
+                <div class="bonus-card">
+                    <div class="bonus-icon-box">
+                        <i data-lucide="chef-hat"></i>
+                    </div>
+                    <h3><span class="bonus-label">Bônus #5:</span> Receitas Especiais & Gourmet</h3>
+                    <p>Módulo extra no app com receitas de Cookies Fit, Veganos e variações de luxo para atrair todo
+                        tipo de cliente.</p>
+                    <div class="price-tag">
+                        <span class="old-price">R$ 97</span> <span class="free-badge">NO APP</span>
+                    </div>
+                </div>
+
+                <!-- Bonus 6: Cooking Mode -->
+                <div class="bonus-card">
+                    <div class="bonus-icon-box">
+                        <i data-lucide="timer"></i>
+                    </div>
+                    <h3><span class="bonus-label">Bônus #6:</span> Modo "Mãos na Massa" (Assistente)</h3>
+                    <p>O App guia você passo-a-passo enquanto cozinha, com cronômetro integrado para não queimar nada. É
+                        como ter um chef ao seu lado!</p>
+                    <div class="price-tag">
+                        <span class="old-price">R$ 197</span> <span class="free-badge">NO APP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Big Sticky CTA -->
+            <a href="#" class="big-cta-button">
+                <i data-lucide="sparkles"></i> Todos esses bônus são seus de GRAÇA ao garantir sua vaga agora!
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-grid">
+                <!-- Pro Card (Left) -->
+                <div class="pricing-card pro-card">
+                    <div class="popular-badge">
+                        <i data-lucide="crown"></i> MAIS ESCOLHIDO
+                    </div>
+                    <h3><i data-lucide="star" fill="#e6c86e" class="text-gold"></i> Plano Pro <i data-lucide="star"
+                            fill="#e6c86e" class="text-gold"></i></h3>
+
+                    <div class="price-box">
+                        <span class="price-strikethrough">De R$ 197</span>
+                        <div class="price-main">
+                            R$ <span class="price-number">13,90</span>
+                        </div>
+                        <span class="price-subtitle">pagamento único • acesso vitalício</span>
+                    </div>
+
+                    <div class="save-pill">ECONOMIZE 92%</div>
+
+                    <ul class="pricing-features">
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> 6 módulos completos (49+
+                            aulas)</li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Módulo Cookies Clássicos (NY
+                            Style)
+                        </li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Módulo Cookies Recheados
+                            (Nutella)
+                        </li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Módulo Cookies Especiais
+                            (Fit/Vegan)
+                        </li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Calculadora Automática de
+                            Lucros
+                        </li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Kit de Vendas (Scripts)</li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Guia da Primeira Venda 24h
+                        </li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Dicas de Ouro (Segredos de
+                            Chef)</li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Atualizações Gratuitas +
+                            Certificado</li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Acesso aos Bônus do App</li>
+                    </ul>
+
+                    <a href="#" class="cta-button full-width">
+                        QUERO O PLANO PRO <i data-lucide="arrow-right"></i>
+                    </a>
+
+                    <div class="secure-badge">
+                        <span><i data-lucide="shield-check"></i> Compra segura</span>
+                        <span><i data-lucide="clock"></i> Acesso imediato</span>
+                    </div>
+                </div>
+
+                <!-- Basic Card (Right) -->
+                <div class="pricing-card basic-card">
+                    <h3>Plano Básico</h3>
+
+                    <div class="price-box">
+                        <div class="price-main-small">
+                            R$ <span class="price-number-small">1,90</span>
+                        </div>
+                        <span class="price-subtitle">pagamento único</span>
+                    </div>
+
+                    <ul class="pricing-features">
+                        <li class="feature-included"><i data-lucide="check"></i> Acesso às aulas básicas</li>
+                        <li class="feature-included"><i data-lucide="check"></i> 1 módulo de receitas</li>
+                        <li class="feature-included"><i data-lucide="check"></i> Suporte por email</li>
+                        <li class="feature-excluded"><i data-lucide="x"></i> Módulos cookies recheados e especiais</li>
+                        <li class="feature-excluded"><i data-lucide="x"></i> Calculadora de lucro</li>
+                        <li class="feature-excluded"><i data-lucide="x"></i> Scripts de vendas</li>
+                        <li class="feature-excluded"><i data-lucide="x"></i> Dicas de ouro</li>
+                        <li class="feature-excluded"><i data-lucide="x"></i> Guia da primeira venda</li>
+                        <li class="feature-excluded"><i data-lucide="x"></i> Certificado de conclusão</li>
+                    </ul>
+
+                    <a href="#" class="secondary-button">
+                        Escolher Básico <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="badge-pill-outline">
+                <i data-lucide="instagram"></i> Direto do Instagram <i data-lucide="heart" fill="#d44d6a"
+                    class="heart-icon"></i>
+            </div>
+
+            <h2 class="section-title">
+                Mulheres Reais, <span class="text-pink">Resultados Reais</span>
+            </h2>
+
+            <p class="section-description">
+                Histórias de quem <span class="text-pink">transformou a cozinha em fonte de renda</span> e descobriu que
+                o segredo estava no método certo.
+            </p>
+
+            <div class="testimonials-grid">
+                <!-- Card 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-inner">
+                        <div class="user-header">
+                            <img src="assets/avatar1.png" alt="Márcia Silva" class="user-avatar">
+                            <div class="user-info">
+                                <h4>Márcia Silva de Paula</h4>
+                                <span class="user-handle">@marciasilvadepaula</span>
+                                <span class="user-location"><span class="status-dot"></span> São Paulo, SP</span>
+                            </div>
+                            <i data-lucide="instagram" class="insta-icon"></i>
+                        </div>
+                        <div class="tag-badge red-tag"><i data-lucide="star"></i> Renda extra garantida</div>
+                        <p class="testimonial-text">
+                            "Minha primeira fornada de Cookies Red Velvet vendeu em 2 horas! O cheiro incendiou o prédio
+                            todo,
+                            os vizinhos ficaram doidos. Obrigada pelo método! 🙌😍"
+                        </p>
+                        <div class="testimonial-rating">
+                            <i data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i>
+                            <span>Aluna verificada</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-inner">
+                        <div class="user-header">
+                            <img src="assets/avatar2.png" alt="Cássia Oliveira" class="user-avatar">
+                            <div class="user-info">
+                                <h4>Cássia Oliveira</h4>
+                                <span class="user-handle">@cassiaoliveira8604</span>
+                                <span class="user-location"><span class="status-dot"></span> Rio de Janeiro, RJ</span>
+                            </div>
+                            <i data-lucide="instagram" class="insta-icon"></i>
+                        </div>
+                        <div class="tag-badge pink-tag"><i data-lucide="star"></i> Ficou perfeito</div>
+                        <p class="testimonial-text">
+                            "O cookie de Nutella com Ninho é o carro chefe aqui. Cliente compra um e volta pra buscar a
+                            caixa."
+                        </p>
+                        <div class="testimonial-rating">
+                            <i data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i>
+                            <span>Aluna verificada</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-inner">
+                        <div class="user-header">
+                            <img src="assets/avatar3.png" alt="Camila Helena" class="user-avatar">
+                            <div class="user-info">
+                                <h4>Camila Helena</h4>
+                                <span class="user-handle">@camilahelena5336</span>
+                                <span class="user-location"><span class="status-dot"></span> Belo Horizonte, MG</span>
+                            </div>
+                            <i data-lucide="instagram" class="insta-icon"></i>
+                        </div>
+                        <div class="tag-badge purple-tag"><i data-lucide="star"></i> Primeira vez de sucesso</div>
+                        <p class="testimonial-text">
+                            "Sempre tive medo de cookie ficar duro, mas com essa técnica eles ficam puxa-puxa igual dos
+                            EUA! 💕"
+                        </p>
+                        <div class="testimonial-rating">
+                            <i data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i>
+                            <span>Aluna verificada</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-inner">
+                        <div class="user-header">
+                            <img src="assets/avatar4.png" alt="Ana Paula" class="user-avatar">
+                            <div class="user-info">
+                                <h4>Ana Paula</h4>
+                                <span class="user-handle">@anapaulabahia</span>
+                                <span class="user-location"><span class="status-dot"></span> Salvador, BA</span>
+                            </div>
+                            <i data-lucide="instagram" class="insta-icon"></i>
+                        </div>
+                        <div class="tag-badge red-tag"><i data-lucide="star"></i> Encomendas toda semana</div>
+                        <p class="testimonial-text">
+                            "Nunca pensei que vender cookie dava tanto dinheiro. É muito mais prático que bolo de pote!
+                            Já estou pegando encomendas de casamento."
+                        </p>
+                        <div class="testimonial-rating">
+                            <i data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i>
+                            <span>Aluna verificada</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-inner">
+                        <div class="user-header">
+                            <img src="assets/avatar2.png" alt="Fernanda Costa" class="user-avatar">
+                            <div class="user-info">
+                                <h4>Fernanda Costa</h4>
+                                <span class="user-handle">@fercosta_df</span>
+                                <span class="user-location"><span class="status-dot"></span> Brasília, DF</span>
+                            </div>
+                            <i data-lucide="instagram" class="insta-icon"></i>
+                        </div>
+                        <div class="tag-badge red-tag"><i data-lucide="star"></i> 3x mais lucro</div>
+                        <p class="testimonial-text">
+                            "A apresentação faz toda diferença! Depois que aprendi as técnicas certas, consigo cobrar o
+                            triplo e ainda assim os clientes agradecem."
+                        </p>
+                        <div class="testimonial-rating">
+                            <i data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i>
+                            <span>Aluna verificada</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-inner">
+                        <div class="user-header">
+                            <img src="assets/avatar3.png" alt="Patricia Lima" class="user-avatar">
+                            <div class="user-info">
+                                <h4>Patricia Lima</h4>
+                                <span class="user-handle">@patricialima_ce</span>
+                                <span class="user-location"><span class="status-dot"></span> Fortaleza, CE</span>
+                            </div>
+                            <i data-lucide="instagram" class="insta-icon"></i>
+                        </div>
+                        <div class="tag-badge pink-tag"><i data-lucide="star"></i> Confeitaria própria</div>
+                        <p class="testimonial-text">
+                            "Comecei vendendo para amigas e família, hoje tenho minha própria confeitaria. Tudo começou
+                            com essas receitas incríveis! ✨"
+                        </p>
+                        <div class="testimonial-rating">
+                            <i data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i><i data-lucide="star" fill="#e6c86e"></i><i
+                                data-lucide="star" fill="#e6c86e"></i>
+                            <span>Aluna verificada</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="community-footer">
+                <div class="avatars-group">
+                    <img src="assets/avatar1.png" alt="">
+                    <img src="assets/avatar2.png" alt="">
+                    <img src="assets/avatar3.png" alt="">
+                    <img src="assets/avatar4.png" alt="">
+                    <div class="avatar-count">+847</div>
+                </div>
+                <p>Junte-se a <span class="text-pink">+847 alunas</span> que já transformaram suas vidas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee-section">
+        <div class="container">
+            <div class="guarantee-card">
+                <div class="icon-glow">
+                    <i data-lucide="shield" width="48" height="48"></i>
+                </div>
+                <h2>Garantia Incondicional de 7 Dias</h2>
+                <p>
+                    Você tem 7 dias para assistir às aulas, testar as receitas e ver se o método funciona para você. Se
+                    por qualquer motivo não gostar, devolvemos <span class="text-pink">100% do seu dinheiro</span>.
+                </p>
+                <div class="guarantee-features">
+                    <div class="feature-item">
+                        <i data-lucide="check-circle-2" class="text-pink"></i>
+                        <span>Sem burocracia</span>
+                    </div>
+                    <div class="feature-item">
+                        <i data-lucide="check-circle-2" class="text-pink"></i>
+                        <span>Sem perguntas</span>
+                    </div>
+                    <div class="feature-item">
+                        <i data-lucide="check-circle-2" class="text-pink"></i>
+                        <span>Reembolso total</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-badge">
+                <i data-lucide="help-circle"></i> Perguntas Frequentes
+            </div>
+            <div class="section-title">
+                <h2>Ainda tem <span class="text-pink">dúvidas?</span></h2>
+            </div>
+
+            <div class="faq-list">
+                <!-- Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Preciso ter experiência em confeitaria?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Não! O curso foi desenhado para quem está começando do zero. Ensinamos tudo passo a passo,
+                            desde os utensílios básicos até as técnicas de venda.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Preciso de equipamentos caros?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Definitivamente não. Você pode começar com o que já tem na sua cozinha. Mostramos como
+                            adaptar utensílios e fazer receitas profissionais com baixo investimento inicial.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Em quanto tempo vou ver resultados?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Isso depende da sua dedicação, mas muitas alunas já começam a vender na primeira semana após
+                            aplicarem as receitas e as estratégias de venda do módulo bônus.</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>As receitas funcionam para vender?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Todas as receitas foram testadas e validadas no mercado. Elas são pensadas para ter alta
+                            lucratividade, durabilidade e uma apresentação que vende sozinha.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Por quanto tempo tenho acesso?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O acesso ao curso é vitalício! Você pode assistir às aulas quantas vezes quiser, no seu
+                            próprio ritmo e horário, e ainda recebe todas as atualizações futuras gratuitamente.</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>E se eu não gostar do curso?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sem problemas. Você tem nossa garantia incondicional de 7 dias. Se não gostar, basta enviar
+                            um e-mail e devolvemos 100% do seu dinheiro, sem perguntas.</p>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Posso assistir pelo celular?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! A plataforma é compatível com celulares, tablets e computadores. Você pode assistir de
+                            onde estiver, basta ter acesso à internet.</p>
+                    </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Tem suporte para dúvidas?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Com certeza. Temos uma equipe de suporte dedicada e uma comunidade exclusiva de alunas onde
+                            você pode tirar dúvidas, trocar experiências e compartilhar seus resultados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- Last Call Section -->
+    <section class="last-call-section">
+        <div class="container">
+            <div class="last-call-badge">
+                <i data-lucide="sparkles"></i> Última chamada
+            </div>
+            <h2>Transforme sua cozinha <span class="text-white">em uma</span> <span class="text-pink">vitrine de renda
+                    alta</span></h2>
+            <p>Comece hoje mesmo a fazer Cookies Americanos que vendem todos os dias — <span class="text-pink">mesmo se
+                    você morre de medo de errar</span>.</p>
+
+            <a href="#" class="cta-button large pulse">
+                QUERO MINHA VAGA AGORA <i data-lucide="arrow-right"></i>
+            </a>
+
+            <div class="security-row">
+                <span><i data-lucide="sparkles" class="text-gold"></i> Acesso imediato</span>
+                <span><i data-lucide="lock" class="text-green"></i> Pagamento 100% seguro</span>
+                <span><i data-lucide="shield-check" class="text-gold"></i> 7 dias de garantia</span>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-brand">
+                <span class="text-pink">Donuts & Cupcakes</span> de Renda Alta
+            </div>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Contato</a>
+            </div>
+            <p class="copyright">
+                &copy; 2026 Donuts & Cupcakes de Renda Alta. Todos os direitos reservados.
+            </p>
+            <p class="disclaimer">
+                Este produto não garante a obtenção de resultados. Qualquer referência a desempenho não é garantia de
+                resultado futuro. Os resultados podem variar de pessoa para pessoa.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
