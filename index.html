@@ -76,16 +76,33 @@
                 <span class="dot">•</span>
                 <span><i data-lucide="lock"></i> Pagamento seguro</span>
                 <span class="dot">•</span>
-                <span><i data-lucide="shield-check"></i> Garantia de 7 dias</span>
+                <span><i data-lucide="shield-check"></i> Garantia de 15 dias</span>
             </div>
 
             <div class="hero-image-container">
                 <div class="glow-effect"></div>
                 <!-- Placeholder image until we have the cookie asset, using existing one for layout -->
-                <img src="assets/hero-cookies.png" alt="Cookies Americanos" class="hero-image">
+                <img src="assets/hero-nutella.png" alt="Cookies Americanos" class="hero-image">
                 <div class="floating-badge">
                     <i data-lucide="sparkles" class="badge-icon"></i>
                     <span>O Doce Mais Vendido do Mundo</span>
+                </div>
+            </div>
+
+            <!-- WhatsApp Access Box -->
+            <div class="whatsapp-box">
+                <div class="whatsapp-icon-wrapper">
+                    <!-- WhatsApp Icon SVG -->
+                    <svg viewBox="0 0 24 24" width="32" height="32" class="whatsapp-icon" fill="#25D366">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                </div>
+                <div class="whatsapp-content">
+                    <div class="whatsapp-title">Acesso enviado automaticamente pelo WhatsApp</div>
+                    <div class="whatsapp-subtitle">
+                        <i data-lucide="check" class="check-small"></i> Material liberado após confirmação do pagamento
+                    </div>
                 </div>
             </div>
 
@@ -109,14 +126,18 @@
                 em vídeo e suporte direto. <span class="text-pink">Sua fábrica de cookies na palma da mão.</span>
             </p>
 
-            <div class="phone-mockup-container">
-                <img src="assets/app-mockup-cookies.png" alt="App Preview" class="phone-mockup">
-                <div class="play-button-overlay">
-                    <div class="play-button">
-                        <i data-lucide="play" fill="currentColor"></i>
-                    </div>
-                </div>
-                <div class="video-caption">Toque para assistir</div>
+            <div class="video-container-wistia" style="max-width: 420px; margin: 40px auto; overflow: hidden;">
+                <script src="https://fast.wistia.com/player.js" async></script>
+                <script src="https://fast.wistia.com/embed/kahp8tg9ai.js" async type="module"></script>
+                <style>
+                    wistia-player[media-id='kahp8tg9ai']:not(:defined) {
+                        background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/kahp8tg9ai/swatch');
+                        display: block;
+                        filter: blur(5px);
+                        padding-top: 195.56%;
+                    }
+                </style>
+                <wistia-player media-id="kahp8tg9ai" aspect="0.5113636363636364"></wistia-player>
             </div>
 
             <p class="download-text">Disponível para download em</p>
@@ -286,146 +307,74 @@
     <section class="curriculum-section">
         <div class="container">
             <div class="badge-pill-outline">
-                <i data-lucide="book-open"></i> Conteúdo Completo
+                <i data-lucide="book-open"></i> CONTEÚDO COMPLETO
             </div>
 
             <h2 class="section-title">
-                O que você vai <span class="text-pink">aprender</span>
+                Cookies Lucrativos <span class="text-pink">Recheados</span>
             </h2>
 
             <p class="section-description">
-                6 módulos práticos com mais de 30 aulas em vídeo para você dominar a arte dos Cookies Americanos (NY
-                Style) de alta conversão.
+                Descubra as receitas mais vendidas e gourmet, divididas em categorias para você faturar alto. <span
+                    class="text-pink">Todas testadas por +2.400 alunas!</span>
             </p>
 
-            <div class="modules-grid">
-                <!-- Module 01 -->
-                <div class="module-card">
+            <div class="modules-grid recipes-grid-new">
+                <!-- Tradicionais -->
+                <div class="module-card recipe-category-card">
                     <div class="card-header">
-                        <div class="play-icon-box">
-                            <i data-lucide="play" fill="white"></i>
-                        </div>
-                        <span class="watermark-number">01</span>
+                        <i data-lucide="star" class="text-pink" fill="var(--accent-pink)"></i>
+                        <h3>Cookies Tradicionais</h3>
                     </div>
-                    <h3>A Ciência do Cookie Perfeito</h3>
-                    <p>Entenda a química por trás da massa: como deixar crocante por fora e macio por dentro (fudgy).
-                    </p>
-                    <div class="card-meta">
-                        <span><i data-lucide="book"></i> 8 aulas</span>
-                        <span><i data-lucide="clock"></i> 2h 30min</span>
-                    </div>
+                    <ul class="recipe-list-items">
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Clássico Americano – Base perfeita crocante
+                        </li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie de Chocolate Branco – Doce e sofisticado
+                        </li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie de Nozes – Crocância irresistível</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie de Paçoca – Sabor brasileiro</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Red Velvet – Elegante e clássico</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie de Café – Aromático e intenso</li>
+                    </ul>
                 </div>
 
-                <!-- Module 02 -->
-                <div class="module-card">
+                <!-- Gourmet -->
+                <div class="module-card recipe-category-card">
                     <div class="card-header">
-                        <div class="play-icon-box">
-                            <i data-lucide="play" fill="white"></i>
-                        </div>
-                        <span class="watermark-number">02</span>
+                        <i data-lucide="crown" class="text-pink" fill="var(--accent-pink)"></i>
+                        <h3>Cookies Gourmet</h3>
                     </div>
-                    <h3>Cookies Clássicos & Gota de Chocolate</h3>
-                    <p>O carro-chefe das vendas. Aprenda o Clássico com gotas de chocolate belga que vende todo dia.</p>
-                    <div class="card-meta">
-                        <span><i data-lucide="book"></i> 12 aulas</span>
-                        <span><i data-lucide="clock"></i> 3h 45min</span>
-                    </div>
+                    <ul class="recipe-list-items">
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Floresta Negra – Cerejas e chantilly</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie 3 Camadas – Puro prazer visual</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie com Whiskey – Toque adulto</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Sensação – Morango e chocolate</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Oreo – Crocante e cremoso</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Diamante Negro – Sofisticado</li>
+                    </ul>
                 </div>
 
-                <!-- Module 03 -->
-                <div class="module-card">
+                <!-- Especiais -->
+                <div class="module-card recipe-category-card">
                     <div class="card-header">
-                        <div class="play-icon-box">
-                            <i data-lucide="play" fill="white"></i>
-                        </div>
-                        <span class="watermark-number">03</span>
+                        <i data-lucide="sparkles" class="text-pink" fill="var(--accent-pink)"></i>
+                        <h3>Cookies Especiais</h3>
                     </div>
-                    <h3>Cookies Recheados (Stuffed)</h3>
-                    <p>Aprenda a técnica correta para rechear com Nutella, Doce de Leite e Brigadeiro sem vazar no
-                        forno.</p>
-                    <div class="card-meta">
-                        <span><i data-lucide="book"></i> 10 aulas</span>
-                        <span><i data-lucide="clock"></i> 3h 15min</span>
-                    </div>
-                </div>
-
-                <!-- Module 04 -->
-                <div class="module-card">
-                    <div class="card-header">
-                        <div class="play-icon-box">
-                            <i data-lucide="play" fill="white"></i>
-                        </div>
-                        <span class="watermark-number">04</span>
-                    </div>
-                    <h3>Red Velvet & Especiais</h3>
-                    <p>Receitas luxuosas como Red Velvet com Cream Cheese, Pistache e Dark Chocolate com Flor de Sal.
-                    </p>
-                    <div class="card-meta">
-                        <span><i data-lucide="book"></i> 8 aulas</span>
-                        <span><i data-lucide="clock"></i> 2h 00min</span>
-                    </div>
-                </div>
-
-                <!-- Module 05 -->
-                <div class="module-card">
-                    <div class="card-header">
-                        <div class="play-icon-box">
-                            <i data-lucide="play" fill="white"></i>
-                        </div>
-                        <span class="watermark-number">05</span>
-                    </div>
-                    <h3>Precificação Lucrativa</h3>
-                    <p>A matemática do lucro: como calcular seus custos e definir preços que geram margem de 300% ou
-                        mais.</p>
-                    <div class="card-meta">
-                        <span><i data-lucide="book"></i> 5 aulas</span>
-                        <span><i data-lucide="clock"></i> 1h 30min</span>
-                    </div>
-                </div>
-
-                <!-- Module 06 -->
-                <div class="module-card">
-                    <div class="card-header">
-                        <div class="play-icon-box">
-                            <i data-lucide="play" fill="white"></i>
-                        </div>
-                        <span class="watermark-number">06</span>
-                    </div>
-                    <h3>Vitrine que Vende</h3>
-                    <p>Apresentação, embalagem e fotos que fazem seus doces parecerem irresistíveis nas redes sociais.
-                    </p>
-                    <div class="card-meta">
-                        <span><i data-lucide="book"></i> 6 aulas</span>
-                        <span><i data-lucide="clock"></i> 1h 45min</span>
-                    </div>
+                    <ul class="recipe-list-items">
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Zero Açúcar – Para todos os públicos</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Zero Lactose – Inclusivo</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Low Carb – Opção fitness</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie Vegano – 100% vegetal</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie de Caneca – Prático e rápido</li>
+                        <li><i data-lucide="star" fill="#e6c86e"></i> Cookie de Banana – Naturalmente doce</li>
+                    </ul>
                 </div>
             </div>
 
-            <!-- Bottom Stats -->
-            <div class="curriculum-stats">
-                <div class="stat-item">
-                    <i data-lucide="award" class="stat-icon-large"></i>
-                    <div class="stat-text">
-                        <strong>49+</strong>
-                        <span>Aulas em vídeo</span>
-                    </div>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <i data-lucide="clock" class="stat-icon-large"></i>
-                    <div class="stat-text">
-                        <strong>15h+</strong>
-                        <span>De conteúdo</span>
-                    </div>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <i data-lucide="book-open" class="stat-icon-large"></i>
-                    <div class="stat-text">
-                        <strong>Vitalício</strong>
-                        <span>Acesso ao curso</span>
-                    </div>
-                </div>
+            <!-- Profit Banner -->
+            <div class="profit-banner-new">
+                <span class="emoji-profit">🤑</span>
+                <p>Transforme R$60 em R$200 por fornada com técnicas comprovadas!</p>
             </div>
 
         </div>
@@ -529,9 +478,20 @@
             </div>
 
             <!-- Big Sticky CTA -->
-            <a href="#oferta" class="big-cta-button">
-                <i data-lucide="sparkles"></i> Todos esses bônus são seus de GRAÇA ao garantir sua vaga agora!
-            </a>
+            <div class="big-cta-button-container">
+                <a href="#oferta" class="big-cta-button">
+                    <div class="cta-main-content">
+                        <i data-lucide="sparkles"></i> TODOS ESSES BÔNUS SÃO SEUS DE GRAÇA AO GARANTIR SUA VAGA AGORA!
+                    </div>
+                    <div class="whatsapp-bonus-inline">
+                        <svg viewBox="0 0 24 24" class="wa-icon-small" fill="#25D366">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        TUDO LIBERADO NO SEU WHATSAPP EM MENOS DE 1 MINUTO
+                    </div>
+                </a>
+            </div>
 
         </div>
     </section>
@@ -539,19 +499,16 @@
     <!-- Pricing Section -->
     <section class="pricing-section" id="oferta">
         <div class="container">
-            <div class="pricing-grid">
+            <div class="pricing-grid centered-pricing">
                 <!-- Pro Card (Left) -->
-                <div class="pricing-card pro-card">
-                    <div class="popular-badge">
-                        <i data-lucide="crown"></i> MAIS ESCOLHIDO
-                    </div>
+                <div class="pricing-card pro-card-refined">
                     <h3><i data-lucide="star" fill="#e6c86e" class="text-gold"></i> Plano Pro <i data-lucide="star"
                             fill="#e6c86e" class="text-gold"></i></h3>
 
                     <div class="price-box">
                         <span class="price-strikethrough">De R$ 197</span>
                         <div class="price-main">
-                            R$ <span class="price-number">13,90</span>
+                            R$ <span class="price-number">14,90</span>
                         </div>
                         <span class="price-subtitle">pagamento único • acesso vitalício</span>
                     </div>
@@ -559,32 +516,16 @@
                     <div class="save-pill">ECONOMIZE 92%</div>
 
                     <ul class="pricing-features">
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> 6 módulos completos (49+
-                            aulas)</li>
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Módulo Cookies Clássicos (NY
-                            Style)
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> 6 Módulos (Tradicionais,
+                            Gourmet e Especiais)</li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Aplicativo: Calculadora, Kit
+                            de Vendas e Dicas</li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Guia 24h e Bônus Exclusivos
                         </li>
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Módulo Cookies Recheados
-                            (Nutella)
-                        </li>
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Módulo Cookies Especiais
-                            (Fit/Vegan)
-                        </li>
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Calculadora Automática de
-                            Lucros
-                        </li>
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Kit de Vendas (Scripts)</li>
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Guia da Primeira Venda 24h
-                        </li>
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Dicas de Ouro (Segredos de
-                            Chef)</li>
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Atualizações Gratuitas +
-                            Certificado</li>
-                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Acesso aos Bônus do App</li>
+                        <li class="feature-included"><i data-lucide="check-circle-2"></i> Suporte e Atualizações</li>
                     </ul>
 
-                    <a href="https://comprasegura.sbs/checkout/cmlhkdv9m03xc21qrrzt33hid?offer=OBJ5G8X"
-                        class="cta-button full-width">
+                    <a href="https://ggcheckout.com.br/checkout/v5/GsH7BRliGH7v1RVRnBwD" class="cta-button full-width">
                         QUERO O PLANO PRO <i data-lucide="arrow-right"></i>
                     </a>
 
@@ -593,33 +534,22 @@
                         <span><i data-lucide="clock"></i> Acesso imediato</span>
                     </div>
                 </div>
+            </div>
 
-                <!-- Basic Card (Right) -->
-                <div class="pricing-card basic-card">
-                    <h3>Plano Básico</h3>
-
-                    <div class="price-box">
-                        <div class="price-main-small">
-                            R$ <span class="price-number-small">1,90</span>
-                        </div>
-                        <span class="price-subtitle">pagamento único</span>
+            <!-- WhatsApp Access Box (Repurposed for Pricing) -->
+            <div class="whatsapp-box pricing-whatsapp">
+                <div class="whatsapp-icon-wrapper">
+                    <!-- WhatsApp Icon SVG -->
+                    <svg viewBox="0 0 24 24" width="32" height="32" class="whatsapp-icon" fill="#25D366">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                </div>
+                <div class="whatsapp-content">
+                    <div class="whatsapp-title">Acesso enviado automaticamente pelo WhatsApp</div>
+                    <div class="whatsapp-subtitle">
+                        <i data-lucide="check" class="check-small"></i> Material liberado após confirmação do pagamento
                     </div>
-
-                    <ul class="pricing-features">
-                        <li class="feature-included"><i data-lucide="check"></i> Acesso às aulas básicas</li>
-                        <li class="feature-included"><i data-lucide="check"></i> 1 módulo de receitas</li>
-                        <li class="feature-included"><i data-lucide="check"></i> Suporte por email</li>
-                        <li class="feature-excluded"><i data-lucide="x"></i> Módulos cookies recheados e especiais</li>
-                        <li class="feature-excluded"><i data-lucide="x"></i> Calculadora de lucro</li>
-                        <li class="feature-excluded"><i data-lucide="x"></i> Scripts de vendas</li>
-                        <li class="feature-excluded"><i data-lucide="x"></i> Dicas de ouro</li>
-                        <li class="feature-excluded"><i data-lucide="x"></i> Guia da primeira venda</li>
-                        <li class="feature-excluded"><i data-lucide="x"></i> Certificado de conclusão</li>
-                    </ul>
-
-                    <a href="#" class="secondary-button">
-                        Escolher Básico <i data-lucide="arrow-right"></i>
-                    </a>
                 </div>
             </div>
         </div>
@@ -807,9 +737,9 @@
                     <img src="assets/avatar2.png" alt="">
                     <img src="assets/avatar3.png" alt="">
                     <img src="assets/avatar4.png" alt="">
-                    <div class="avatar-count">+847</div>
+                    <div class="avatar-count">+2400</div>
                 </div>
-                <p>Junte-se a <span class="text-pink">+847 alunas</span> que já transformaram suas vidas</p>
+                <p>Junte-se a <span class="text-pink">+2400 alunas</span> que já transformaram suas vidas</p>
             </div>
         </div>
     </section>
@@ -821,10 +751,11 @@
                 <div class="icon-glow">
                     <i data-lucide="shield-check" width="48" height="48"></i>
                 </div>
-                <h2>Garantia Incondicional de 7 Dias</h2>
+                <h2>Garantia Blindada de 15 Dias</h2>
                 <p>
-                    Você tem 7 dias para assistir às aulas, testar as receitas e ver se o método funciona para você. Se
-                    por qualquer motivo não gostar, devolvemos <span class="text-pink">100% do seu dinheiro</span>.
+                    Teste por 15 dias. Se não fizer seu primeiro cookie perfeito com recheio derretendo ou não
+                    recuperar o investimento… devolvo 100% na hora. <span class="text-pink">Zero risco. Investimento
+                        protegido.</span>
                 </p>
                 <div class="guarantee-features">
                     <div class="feature-item">
@@ -838,6 +769,94 @@
                     <div class="feature-item">
                         <i data-lucide="check-circle-2" class="text-pink"></i>
                         <span>Reembolso total</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="last-call-section">
+        <div class="last-call-glow"></div>
+        <div class="container">
+            <div class="atmospheric-glow"></div>
+            <div class="last-call-container">
+                <div class="last-call-header-new">
+                    <i data-lucide="clock" class="text-pink main-clock-icon"></i>
+                    <h2>Última Chamada</h2>
+                </div>
+
+                <div class="offer-expiry-alert">
+                    <span>⚠️ Essa oferta expira em:</span>
+                </div>
+
+                <div class="timer-boxes-container">
+                    <div class="timer-box">
+                        <span id="minutes-large" class="timer-number">05</span>
+                        <span class="timer-label">MINUTOS</span>
+                    </div>
+                    <div class="timer-box">
+                        <span id="seconds-large" class="timer-number">00</span>
+                        <span class="timer-label">SEGUNDOS</span>
+                    </div>
+                </div>
+
+                <div class="price-increase-warning">
+                    🚨 DEPOIS DISSO O PREÇO SOBE PARA <span class="text-pink">R$ 397!</span>
+                </div>
+
+                <h3 class="choices-headline">Você tem duas escolhas AGORA:</h3>
+
+                <div class="dual-choices-grid">
+                    <a href="#faq" class="choice-box choice-negative">
+                        <div class="choice-icon">❌</div>
+                        <div class="choice-text">
+                            <span>Continuar só olhando cookie no TikTok</span>
+                        </div>
+                    </a>
+                    <a href="https://ggcheckout.com.br/checkout/v5/GsH7BRliGH7v1RVRnBwD"
+                        class="choice-box choice-positive">
+                        <div class="choice-icon">✅</div>
+                        <div class="choice-text">
+                            <span>Garantir seu desconto e começar HOJE</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Conversion Section -->
+    <section class="final-conversion-section">
+        <div class="container">
+            <div class="final-card">
+                <h2>Comece Agora e Faça Sua Primeira Venda em 7 Dias</h2>
+
+                <div class="final-badges-grid">
+                    <div class="badges-row">
+                        <div class="final-badge-pill">
+                            <i data-lucide="check"></i>
+                            <span>Garantia 15 dias</span>
+                        </div>
+                        <div class="final-badge-pill">
+                            <i data-lucide="check"></i>
+                            <span>Acesso imediato</span>
+                        </div>
+                        <div class="final-badge-pill">
+                            <i data-lucide="check"></i>
+                            <span>Todos os bônus</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="final-cta-container">
+                    <a href="https://ggcheckout.com.br/checkout/v5/GsH7BRliGH7v1RVRnBwD" class="final-mega-button">
+                        SIM, QUERO O PLANO PRO AGORA
+                    </a>
+                </div>
+
+                <div class="final-pricing-footer">
+                    <div class="final-price-text">Por apenas <span>R$ 14,90</span></div>
+                    <div class="final-sub-text">(Garantia 15 dias + acesso imediato + todos os bônus)
                     </div>
                 </div>
             </div>
@@ -922,7 +941,8 @@
                         <i data-lucide="chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Sem problemas. Você tem nossa garantia incondicional de 7 dias. Se não gostar, basta enviar
+                        <p>Sem problemas. Você tem nossa garantia blindada de 15 dias. Se não fizer seu primeiro cookie
+                            perfeito ou não gostar por qualquer motivo, basta enviar
                             um e-mail e devolvemos 100% do seu dinheiro, sem perguntas.</p>
                     </div>
                 </div>
@@ -953,31 +973,6 @@
             </div>
         </div>
     </section>
-    </section>
-
-    <!-- Last Call Section -->
-    <section class="last-call-section">
-        <div class="container">
-            <div class="last-call-badge">
-                <i data-lucide="megaphone" class="text-pink"></i> Última chamada
-            </div>
-            <h2>Transforme sua cozinha <span class="text-white">em uma</span> <span class="text-pink">vitrine de renda
-                    alta</span></h2>
-            <p>Comece hoje mesmo a fazer Cookies Americanos que vendem todos os dias — <span class="text-pink">mesmo se
-                    você morre de medo de errar</span>.</p>
-
-            <a href="#oferta" class="cta-button large pulse">
-                QUERO MINHA VAGA AGORA <i data-lucide="check-circle"></i>
-            </a>
-
-            <div class="security-row">
-                <span><i data-lucide="sparkles" class="text-gold"></i> Acesso imediato</span>
-                <span><i data-lucide="lock" class="text-green"></i> Pagamento 100% seguro</span>
-                <span><i data-lucide="shield-check" class="text-gold"></i> 7 dias de garantia</span>
-            </div>
-        </div>
-    </section>
-    </section>
 
     <!-- Footer -->
     <footer>
@@ -1005,35 +1000,34 @@
         // Fail-safe Timer Script
         (function () {
             var duration = 60 * 5; // 5 minutes in seconds
-            var display = document.getElementById('countdown');
-
-            if (!display) {
-                console.error("Timer element not found!");
-                return;
-            }
+            var displaySingle = document.getElementById('countdown');
+            var minLarge = document.getElementById('minutes-large');
+            var secLarge = document.getElementById('seconds-large');
 
             function startTimer() {
                 var timer = duration, minutes, seconds;
+
+                function update() {
+                    minutes = parseInt(timer / 60, 10);
+                    seconds = parseInt(timer % 60, 10);
+
+                    var minStr = minutes < 10 ? "0" + minutes : minutes;
+                    var secStr = seconds < 10 ? "0" + seconds : seconds;
+
+                    if (displaySingle) displaySingle.textContent = minStr + ":" + secStr;
+                    if (minLarge) minLarge.textContent = minStr;
+                    if (secLarge) secLarge.textContent = secStr;
+
+                    if (--timer < 0) {
+                        timer = 0;
+                    }
+                }
 
                 // Run immediately
                 update();
 
                 // Update every second
                 setInterval(update, 1000);
-
-                function update() {
-                    minutes = parseInt(timer / 60, 10);
-                    seconds = parseInt(timer % 60, 10);
-
-                    minutes = minutes < 10 ? "0" + minutes : minutes;
-                    seconds = seconds < 10 ? "0" + seconds : seconds;
-
-                    display.textContent = minutes + ":" + seconds;
-
-                    if (--timer < 0) {
-                        timer = 0;
-                    }
-                }
             }
 
             // Start immediately
